@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Moduthulhu\Core\Core.csproj" />
+    <ProjectReference Include="..\Advanced-Discord-Commands\Advanced-Discord-Commands\Advanced-Discord-Commands.csproj" />
+    <ProjectReference Include="..\Moduthulhu\Modules\Modules.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>Moduthulhu.Module</RootNamespace>
+  </PropertyGroup>
+
+</Project>
