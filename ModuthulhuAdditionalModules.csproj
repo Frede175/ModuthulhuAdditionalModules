@@ -1,5 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+
+
   <ItemGroup>
     <ProjectReference Include="..\Moduthulhu\Core\Core.csproj" />
     <ProjectReference Include="..\Advanced-Discord-Commands\Advanced-Discord-Commands\Advanced-Discord-Commands.csproj" />
