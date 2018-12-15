@@ -133,8 +133,6 @@ namespace Moduthulhu.Module.Remindme
         {
             var users = reminder.Users.Select(id => ParentShard.GetUser(reminder.Server, id));
 
-            //TODO remove own message
-
             var channel = ParentShard.GetTextChannel(reminder.Server, reminder.Channel);
 
             //Can't send the message if the channel has been deleted
